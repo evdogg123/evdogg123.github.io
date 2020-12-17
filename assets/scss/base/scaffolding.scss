@@ -13,6 +13,13 @@ body{
   color: $color-text-main;
 }
 
+body.modal-open {
+  overflow: hidden !important;
+  position: fixed !important;
+}
+
+
+
 hr{
   margin: 0;
 }
