@@ -38,7 +38,7 @@ function submitForm(e, formName) {
         email: email,
         message: message
     };
-
+    console.log(formData);
     $.ajax({
         type: "POST",
         url: 'mail.php',
